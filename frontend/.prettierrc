@@ -1,0 +1,26 @@
+{
+  "printWidth": 80,
+  "useTabs": false,
+  "semi": true,
+  "bracketSameLine": true,
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "arrowParens": "always",
+  "singleAttributePerLine": true,
+  "overrides": [
+    {
+      "files": "*.yml",
+      "options": {
+        "singleQuote": false,
+        "tabWidth": 2
+      }
+    }
+  ],
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}

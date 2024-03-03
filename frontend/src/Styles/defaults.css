@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  font-family: 'Comfortaa', sans-serif !important;
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: all 400ms ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1e83f0;
+}
+
+i {
+  user-select: none;
+}
